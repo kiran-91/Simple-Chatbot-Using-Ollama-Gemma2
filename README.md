@@ -62,12 +62,15 @@ This project demonstrates the development of a chatbot application leveraging st
 1. Enter your question in the text input field.
 2. View the chatbot's response generated using the "gemma2" language model.
 3. If any errors occur, they will be displayed in the Streamlit interface.
--Check out these images 
+
+- **Check out these images**
+
 ![alt text](image.png)
 ![alt text](image-1.png)
 ![alt text](image-3.png)
 
-- The following images demonstrate the tracking of LLM model query responses on the Langsmith platform, providing detailed insights and metadata
+- **The following images demonstrate the tracking of LLM model query responses on the Langsmith platform, providing detailed insights and metadata**
+
 ![alt text](image-2.png)
 ![alt text](image-4.png)
 
