@@ -41,10 +41,13 @@ This project demonstrates the development of a chatbot application leveraging st
    pip install -r requirements.txt
    ```
 
-4. Create a `.env` or `.streamlit/secrets.toml` file to securely store your API keys:
+4. Create a `.env` file to securely store your API keys:
 
    ```env
    LANGCHAIN_API_KEY=<your_langchain_api_key>
+   LANGCHAIN_PROJECT=<your_langchain_project_name>
+   LANGCHAIN_TRACING_V2=true
+
    ```
 
 5. Run the Streamlit application:
@@ -59,6 +62,14 @@ This project demonstrates the development of a chatbot application leveraging st
 1. Enter your question in the text input field.
 2. View the chatbot's response generated using the "gemma2" language model.
 3. If any errors occur, they will be displayed in the Streamlit interface.
+-Check out these images 
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-3.png)
+
+- The following images demonstrate the tracking of LLM model query responses on the Langsmith platform, providing detailed insights and metadata
+![alt text](image-2.png)
+![alt text](image-4.png)
 
 ## About Ollama, LangChain, and Gemma2
 
